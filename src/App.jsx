@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { ThemeProvider, createGlobalStyle } from "styled-components";
 
-function App() {
-  const [count, setCount] = useState(0)
+import Routes from "./Routes";
+import theme from "./assets/theme";
 
+const GlobalStyle = createGlobalStyle`
+  html, body {
+      margin: 0;
+      padding: 0;
+  }
+
+  * {
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+
+  }
+`;
+
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <GlobalStyle />
 
-export default App
+      <ThemeProvider theme={theme}>
+        <Routes />
+      </ThemeProvider>
+    </>
+  );
+};
+
+export default App;
