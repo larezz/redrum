@@ -25,7 +25,7 @@ export const Image = styled.img`
   height: 220px;
 `;
 
-export const Type = styled.span`
+export const Type = styled.span` 
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,10 +36,11 @@ export const Type = styled.span`
   padding: 0 60px;
   background: ${({ theme }) => theme.palette.primary.main};
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 14px;
   border-radius: 9px;
 `;
+// Tipo de residencia Casa, ap, poço
 
 export const Title = styled.span`
   display: flex;
@@ -51,13 +52,14 @@ export const Title = styled.span`
   width: 100%;
   height: 40px;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 20px;
   font-weight: bold;
   padding: 0 20px;
 
   background: ${({ theme }) => theme.palette.primary.main}CC;
 `;
+// Nome da casa
 
 export const Content = styled.div`
   display: flex;
@@ -71,6 +73,7 @@ export const Content = styled.div`
   padding: 8px 20px;
   gap: 8px;
 `;
+// preço, numero de LiaBatteryQuarterSolid...informações
 
 export const Amount = styled.span`
   display: flex;
@@ -79,10 +82,11 @@ export const Amount = styled.span`
 `;
 
 export const AmountIcon = styled(FiMoon)`
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
   margin-left: 8px;
 `;
+// lua ... noite
 
 export const Details = styled.span`
   display: flex;
@@ -92,7 +96,7 @@ export const Details = styled.span`
 `;
 
 export const Description = styled.span`
-  font-size: 12px;
+  font-size: 18nx;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;

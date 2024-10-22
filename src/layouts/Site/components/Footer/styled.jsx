@@ -2,18 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: auto;
   width: 100%;
-  height: 280px;
+  height: 200px;
+  text-align: right;
+  margin-left: 200px;
 `;
 
 export const Menus = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 40px;
-  border-bottom: 2px solid ${({ theme }) => theme.palette.primary.main};
+  border-right: 2px solid ${({ theme }) => theme.palette.primary.main};
 `;
 
 export const Menu = styled.span`
@@ -31,7 +33,8 @@ export const LogoContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 20px;
   width: 100%;
   flex: 1;
 `;
@@ -39,4 +42,28 @@ export const LogoContent = styled.div`
 export const Logo = styled.img`
   width: 145px;
   height: 84px;
+  margin-right: 100px;
 `;
+
+export const Insta = styled.img`
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+`;
+
+export const Face = styled.img`
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+`;
+
+export const Linkedin = styled.img`
+  width: 30px;
+  height: 30px;  
+  margin-right: 30px;
+`;
+
+export const Bluesky = styled.img`
+  width: 30px;
+  height: 30px; 
+`

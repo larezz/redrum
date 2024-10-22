@@ -2,26 +2,24 @@
   {
     "type": "Casa",
     "title": "Casa dos Hewitt",
-    "amount": "R$ 100,00",
+    "amount": "R$ 180,00",
     "details": "Quartos: 3 | Banheiros: 2 | Cozinha equipada",
     "images": [
-      "https://thumbs.dreamstime.com/b/casa-assombrada-5254874.jpg",
-      "https://thumbs.dreamstime.com/b/casa-rural-inglesa-do-solar-13643922.jpg",
-      "https://cdn.centrowhite.org.br/home/uploads/2022/11/Battle-Creek-MI-1-1.jpg"
+      "https://www.flickr.com/photos/coachchaves/412306082/in/photolist-Crbey-2zj1Ft-fNTXfX-cfpUSy-nqpw13-8G7jjr-bfY6HK-oWRoYv-9LkX16-511THA-qRwWhb-5fSYyP-8XLxne-473do6-f11d1-qzNAWp-7ciRNs-oEcfuz-vKikH-bBQXB6-6zXhBz-a4V1tr-8r7c3a-8rajpA-73uJgE-7nSLj6-6RF5mu-8r7cbR-eUMrx-7d7ngE-ePY7N-22xYCc-7nP5sz-qQ82Vo-roShx6-3fHQfP-61kuc5-8yKhxr-ajBWCp-79NgFQ-7qATm8-yeZpe-etZa75-h2T8Sy-4gwjJX-7Ygkzq-9VfVwJ-8WnQo1-7oeUp6-dMCnnSg"
     ],
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "description": "Passe uma temporada com a família mais gentil e acolhedora do Texas...."
   },
   {
-    "type": "Apartamento",
-    "title": "Casa dos Hewitt",
-    "amount": "R$ 100,00",
+    "type": "Casa",
+    "title": "Apê na Rua 666",
+    "amount": "R$ 200,00",
     "details": "Quartos: 2 | Banheiros: 1 | Cozinha compartilhada",
     "images": [
-      "https://thumbs.dreamstime.com/b/casa-assombrada-5254874.jpg",
+      "https://thumbs.dreamstime.com/z/céu-tormentoso-da-casa-da-quinta-velha-3180066.jpg",
       "https://thumbs.dreamstime.com/b/casa-rural-inglesa-do-solar-13643922.jpg",
       "https://cdn.centrowhite.org.br/home/uploads/2022/11/Battle-Creek-MI-1-1.jpg"
     ],
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "description": "Apartamento grande. Não olhar embaixo da cama... Não há necessidade."
   },
   {
     "type": "Casa",
