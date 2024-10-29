@@ -1,15 +1,27 @@
-[
+import CasaDosPerron from '../assets/images/casa-dos-perron.jpg'
+
+export default [
   {
+    "id": "casa_dos_hewitt",
     "type": "Casa",
     "title": "Casa dos Hewitt",
     "amount": "R$ 180,00",
     "details": "Quartos: 3 | Banheiros: 2 | Cozinha equipada",
     "images": [
-      "https://www.flickr.com/photos/coachchaves/412306082/in/photolist-Crbey-2zj1Ft-fNTXfX-cfpUSy-nqpw13-8G7jjr-bfY6HK-oWRoYv-9LkX16-511THA-qRwWhb-5fSYyP-8XLxne-473do6-f11d1-qzNAWp-7ciRNs-oEcfuz-vKikH-bBQXB6-6zXhBz-a4V1tr-8r7c3a-8rajpA-73uJgE-7nSLj6-6RF5mu-8r7cbR-eUMrx-7d7ngE-ePY7N-22xYCc-7nP5sz-qQ82Vo-roShx6-3fHQfP-61kuc5-8yKhxr-ajBWCp-79NgFQ-7qATm8-yeZpe-etZa75-h2T8Sy-4gwjJX-7Ygkzq-9VfVwJ-8WnQo1-7oeUp6-dMCnnSg"
+      CasaDosPerron,
+      CasaDosPerron,
+      CasaDosPerron,
+      CasaDosPerron,
+      CasaDosPerron,
+      CasaDosPerron,
+      CasaDosPerron,
+  
     ],
-    "description": "Passe uma temporada com a família mais gentil e acolhedora do Texas...."
+    "description": "Passe uma temporada com a família mais gentil e acolhedora do Texas....",
+    "ownerDescription": "ldkjskfjakjdfsadkf sd fdsfsdfsdfsdfsd"
   },
   {
+    "id": "ape_rua_666",
     "type": "Casa",
     "title": "Apê na Rua 666",
     "amount": "R$ 200,00",

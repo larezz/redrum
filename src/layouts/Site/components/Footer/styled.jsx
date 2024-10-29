@@ -7,7 +7,7 @@ export const Container = styled.div`
   width: 100%;
   height: 200px;
   text-align: right;
-  margin-left: 200px;
+  padding-left: 200px;
 `;
 
 export const Menus = styled.div`

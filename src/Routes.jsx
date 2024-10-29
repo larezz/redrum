@@ -11,7 +11,10 @@ const RoutesComponent = () => {
         <Route path="/" element={<Outlet />}>
           <Route path="/*" element={<Site />}>
             <Route index element={<SiteRoutes.Availables />} />
+
             <Route path="availables" element={<SiteRoutes.Availables />} />
+            
+            <Route path="availables/view/:realEstate" element={<SiteRoutes.View />} />
           </Route>
         </Route>
       </Routes>

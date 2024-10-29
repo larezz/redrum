@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   width: 1200px;
   max-width: 1200px;
