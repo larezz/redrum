@@ -9,7 +9,11 @@ import CabanaJPG from "../assets/images/cabana.jpg";
 import SalaJPG from "../assets/images/sala.jpg";
 import QuartoCabanaJPG from "../assets/images/quarto-cabana.jpg";
 import JasonJPG from "../assets/images/jason-voorhees.jpg";
-
+import RepublicaJPG from "../assets/images/republica.jpg";
+import PanicoJPG from "../assets/images/panico.jpg";
+import LivingRoomJPG from "../assets/images/living-room.jpg";
+import RoomJPG from "../assets/images/room.jpg";
+import StairsJPG from "../assets/images/stairs.jpg";
 
 
 
@@ -60,16 +64,22 @@ export default [
     descriptionColumn2: "<b>Extras:<br />Segurança:</b> Contamos com um sistema de câmeras modernas para sua tranquilidade. Mas, vamos ser sinceros, isso pode não ser suficiente em todas as situações. <br /><br /><b>Histórico:</b> O imóvel tem uma rica história, sendo o antigo lar da família Voorhees. Ele foi palco de diversos acontecimentos marcantes ao longo das décadas. Recomendamos aos locatários que apreciem um toque de mistério e, talvez, um pouco de tensão. Pode ser que você ouça sons estranhos no meio da noite, mas quem nunca? <br /><br /><b>Acomodações para grupos pequenos: </b>Ideal para grupos que buscam uma experiência fora do comum, seja para um retiro, uma reunião entre amigos ou, se você for corajoso o suficiente, uma festa inesquecível. Embora, se alguém decidir sair sozinho, lembre-se de estar sempre alerta… <br /><br /><b>Observações Importantes: </b>O acesso à casa pode ser complicado em certos momentos do ano, devido à densa floresta ao redor e à proximidade com o lago. Recomendamos a utilização de um bom GPS e a presença de um grupo. Não saia para explorar sozinho(a), principalmente à noite. <br /><br />A casa tem um histórico de eventos inusitados envolvendo pessoas que despareceram na região. Muitos dizem que o lago guarda segredos do passado da família. Fique atento aos seus arredores. Somente locatários com espírito aventureiro e nervos de aço devem considerar esta oferta! <br /><br />Se você é um amante do suspense, do inesperado e está pronto para viver uma experiência única, a Casa dos Voorhees é o destino perfeito para você. Reserve sua estadia e venha descobrir por si mesmo o que realmente se esconde nas sombras de Crystal Lake… <br /><br />Disponível para locação apenas em datas específicas. Entre em contato para mais informações.",
   },
   {
+    id:"republica-woodsboro",
     type: "Casa",
-    title: "Casa dos Hewitt",
-    amount: "R$ 100,00",
-    details: "Quartos: 2 | Banheiros: 1 | Refeições inclusas: 2",
+    title: "República Woodsboro",
+    amount: "R$ 80,00",
+    details: "Em reforma parcial | Perto da escola Sidney Prescott",
     images: [
-      "https://thumbs.dreamstime.com/b/casa-assombrada-5254874.jpg",
-      "https://thumbs.dreamstime.com/b/casa-rural-inglesa-do-solar-13643922.jpg",
-      "https://cdn.centrowhite.org.br/home/uploads/2022/11/Battle-Creek-MI-1-1.jpg",
+      RepublicaJPG,
+      StairsJPG,
+      RoomJPG,
+      LivingRoomJPG,
     ],
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  },
+    description:"Amor, por favor não desligue o telefone...! Por: GhostFace",
+    ownerImage: PanicoJPG,
+    ownerName: "Ghostface",
+    ownerDescription: "Quer um lugar para testar seus limites? <br /><br />Eu sou Ghostface, e estou colocando minha casa em Woodsboro à disposição de quem se atrever. <br /><br />Isolada, cheia de segredos e com um histórico de visitantes desaparecidos, esta casa é perfeita para quem adora um bom susto e um pouco de tensão. Com uma arquitetura clássica e corredores sombrios, ela oferece tudo o que você precisa para uma estadia emocionante – se você sobreviver à noite, claro.<br />Mas não se engane: você não está apenas alugando uma casa. Está alugando um jogo onde você pode ser o próximo alvo. Em cada canto, uma surpresa. Em cada janela, uma ameaça. Se você acha que consegue passar por essa experiência sem ser caçado, tente. Mas não espere que eu vá ser generoso. Entre se tiver coragem, saia se conseguir.",
+      descriptionColumn1:"Você está procurando o local perfeito para testar seus nervos? <br /><br />A Casa de Woodsboro, onde tudo começou, está disponível para locação. Localizada na pacata cidade de Woodsboro, esta casa icônica é famosa por ser o cenário de alguns dos momentos mais aterrorizantes da história do cinema. Com uma fachada clássica, o imóvel conta com 3 quartos, uma sala ampla, e um quintal amplo – ideal para quem gosta de isolamento. <br /><br />Mas cuidado: o que parece ser um lugar perfeito para relaxar pode ser o palco de algo muito mais mortal.",
+      descriptionColumn2: "Se você não tem medo de uma boa dose de adrenalina, esta é sua chance de viver uma experiência única. Os corredores sombrios e as janelas altas da casa são perfeitos para quem gosta de se sentir vigiado – porque em Woodsboro, ninguém está verdadeiramente sozinho. <br /><br />Se você ousar, se prepare. Talvez você seja capaz de sobreviver à noite, ou talvez... você se torne parte da história. Alugue agora – mas não espere que as coisas sejam como parecem. <br /><br />A casa está à disposição. Só não espere sair ileso.",
+    },
 ];
