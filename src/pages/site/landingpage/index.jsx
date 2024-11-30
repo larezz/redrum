@@ -1,4 +1,5 @@
 import Carousel from "react-multi-carousel";
+import { useNavigate } from "react-router-dom";
 import "react-multi-carousel/lib/styles.css";
 
 import {
@@ -30,6 +31,8 @@ import RealEstate from "../../../components/RealEstate";
 import LandingJPG from "../../../assets/images/landing-image.jpg";
 
 const LandingPage = () => {
+  const navigate = useNavigate();
+  
   return (
     <Container>
       <MainContainer>
