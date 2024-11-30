@@ -20,6 +20,11 @@ const RoutesComponent = () => {
               path="availables/view/:realEstate"
               element={<SiteRoutes.View />}
             />
+
+            <Route
+              path="availables/view/:realEstate"
+              element={<SiteRoutes.View2 />}
+            />
           </Route>
         </Route>
       </Routes>

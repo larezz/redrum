@@ -18,7 +18,7 @@ export const Menus = styled.div`
   border-right: 2px solid ${({ theme }) => theme.palette.primary.main};
 `;
 
-export const Menu = styled.span`
+export const Menu = styled.a`
   font-size: 16px;
   color: #fff;
   cursor: pointer;

@@ -10,7 +10,7 @@ const Footer = () => {
     <S.Container>
       <S.Menus>
         <S.Menu>Contato</S.Menu>
-        <S.Menu>Notícias</S.Menu>
+        <S.Menu href="/news">Notícias</S.Menu>
         <S.Menu>Política de privacidade</S.Menu>
       </S.Menus>
 

@@ -97,7 +97,7 @@ export const NewsContainer = styled.div`
   margin: 96px 0;
 `;
 
-export const NewsImageContent = styled.div`
+export const NewsImageContent = styled.a`
   position: relative;
   width: 500px;
   height: 350px;
@@ -130,17 +130,19 @@ export const NewsTexts = styled.div`
   flex: 1;
 `;
 
-export const NewsText1 = styled.div`
-  color: orange;
+export const NewsText1 = styled.a`
+  color: #fff;
   font-size: 24px;
   font-family: "ARIMO";
+  text-decoration: none;
 `;
 
-export const NewsText2 = styled.div`
+export const NewsText2 = styled.a`
   color: #fff;
   font-size: 170px;
   font-family: "IMBUE";
   font-weight: bold;
+  text-decoration: none;
 `;
 
 export const NewsText3 = styled.div`

@@ -84,14 +84,14 @@ const LandingPage = () => {
       </Availables>
 
       <NewsContainer>
-        <NewsImageContent>
+        <NewsImageContent href="/news">
           <NewsImage src={LandingJPG} />
         </NewsImageContent>
 
         <NewsTexts>
-          <NewsText1>Casa leiloada por</NewsText1>
+          <NewsText1 href="/news">Casa leiloada por</NewsText1>
 
-          <NewsText2>NOSFERATU</NewsText2>
+          <NewsText2 href="/news">NOSFERATU</NewsText2>
 
           <NewsText3>
             O magnata Conde Orlok, atualmente sob suspeita de envolvimento em

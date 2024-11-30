@@ -63,6 +63,7 @@ export const Row = styled.div`
 
 export const Column = styled.div`
   display: flex;
+  font-size: 24px;
   flex: 2;
   flex-direction: column;
   color: #fff;
