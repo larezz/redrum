@@ -12,9 +12,14 @@ const RoutesComponent = () => {
           <Route path="/*" element={<Site />}>
             <Route index element={<SiteRoutes.Landingpage />} />
 
+            <Route path="news" element={<SiteRoutes.News />} />
+
             <Route path="availables" element={<SiteRoutes.Availables />} />
-            
-            <Route path="availables/view/:realEstate" element={<SiteRoutes.View />} />
+
+            <Route
+              path="availables/view/:realEstate"
+              element={<SiteRoutes.View />}
+            />
           </Route>
         </Route>
       </Routes>

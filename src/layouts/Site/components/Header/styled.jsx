@@ -26,12 +26,13 @@ export const Menus = styled.div`
   gap: 32px;
 `;
 
-export const Menu = styled.span`
+export const Menu = styled.a`
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
   transition: ease 0.4s;
+  text-decoration: none;
 
   &:hover {
     text-decoration: underline;
