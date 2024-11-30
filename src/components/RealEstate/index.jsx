@@ -1,8 +1,8 @@
 import * as S from "./styled";
 
-const RealEstate = ({ data, onClick }) => {
+const RealEstate = ({ data, onClick, width }) => {
   return (
-    <S.Container onClick={onClick}>
+    <S.Container width={width} onClick={onClick}>
       <S.ImageContent>
         <S.Image src={data?.images?.[0]} />
 

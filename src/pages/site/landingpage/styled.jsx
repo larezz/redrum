@@ -32,7 +32,7 @@ export const Text1 = styled.div`
 `;
 
 export const Text2 = styled.div`
-  font-family: "IBM Plex Serif";  
+  font-family: "IBM Plex Serif";
   font-size: 77px;
 `;
 
@@ -43,7 +43,7 @@ export const SecondaryContainer = styled.div`
 `;
 
 export const Text3 = styled.div`
-  font-family: "IBM Plex Serif";  
+  font-family: "IBM Plex Serif";
   font-size: 106px;
 `;
 
@@ -64,24 +64,70 @@ export const Highlight = styled.div`
   font-weight: bold;
 `;
 
-export const Availables = styled.div`
-  color: green
+export const Availables = styled.div``;
+
+export const CustomSlide = styled.div`
+  padding: 0 24px;
+`;
+
+export const ContentSeeAll = styled.div`
+  display: flex;
+`;
+
+export const SeeAllButton = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: ${({ theme }) => theme.palette.primary.main};
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  margin-left: auto;
+  margin-top: 24px;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
 `;
 
 export const NewsContainer = styled.div`
   color: blue;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  margin: 96px 0;
+`;
+
+export const NewsImageContent = styled.div`
+  position: relative;
+  width: 500px;
+  height: 350px;
+  border: ${({ theme }) => theme.palette.primary.main} 4px solid;
+  z-index: 10;
+
+  &::before {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    background: ${({ theme }) => theme.palette.primary.main}99;
+    width: 500px;
+    height: 350px;
+    z-index: -1;
+  }
 `;
 
 export const NewsImage = styled.img`
-  width: 500px;
-  height: 350px;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 `;
 
 export const NewsTexts = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: 24px;
+  flex: 1;
 `;
 
 export const NewsText1 = styled.div`

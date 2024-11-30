@@ -4,8 +4,8 @@ import { FiMoon } from "react-icons/fi";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 30%;
-  flex: 3;
+  width: ${({ width }) => width || "30%"};
+  flex:  ${({ width }) => width ? 'unset' : 3};
   background: ${({ theme }) => theme.palette.primary.main};
   padding: 4px;
   cursor: pointer;
@@ -25,7 +25,7 @@ export const Image = styled.img`
   height: 220px;
 `;
 
-export const Type = styled.span` 
+export const Type = styled.span`
   display: flex;
   flex-direction: row;
   align-items: center;
