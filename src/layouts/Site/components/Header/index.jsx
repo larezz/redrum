@@ -4,7 +4,7 @@ import * as S from "./styled";
 const Header = () => {
   return (
     <S.Container>
-      <S.Logo src={LogoPNG} />
+      <a href="landingpage/index.jsx"><S.Logo src={LogoPNG} /></a>
 
       <S.Menus>
         <S.Menu>Aluguéis</S.Menu>
