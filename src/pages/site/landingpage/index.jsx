@@ -29,6 +29,8 @@ import {
 import data from "../../../consts/availables";
 import RealEstate from "../../../components/RealEstate";
 import LandingJPG from "../../../assets/images/landing-image.jpg";
+import MansionJPG from "../../../assets/images/mansao.jpg";
+
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -85,7 +87,7 @@ const LandingPage = () => {
 
       <NewsContainer>
         <NewsImageContent href="/news">
-          <NewsImage src={LandingJPG} />
+          <NewsImage src={MansionJPG} />
         </NewsImageContent>
 
         <NewsTexts>
