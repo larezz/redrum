@@ -4,16 +4,14 @@ import CampoJPG from "../assets/images/campo.jpg";
 import EscadaJPG from "../assets/images/escada.jpg";
 import QuartoJPG from "../assets/images/quarto.jpg";
 import SalaoJPG from "../assets/images/salao.jpg";
-import GomaJPG from "../assets/images/goma-dos-voorhees.jpg";
-import CabanaJPG from "../assets/images/cabana.jpg";
-import SalaJPG from "../assets/images/sala.jpg";
-import QuartoCabanaJPG from "../assets/images/quarto-cabana.jpg";
+import CabanaJPG from "../assets/images/cabana-voorhees.jpeg";
+import SalaVoorheesJPG from "../assets/images/sala-voorhees.jpeg";
+import QuartoVoorheesJPG from "../assets/images/quarto-voorhees.jpeg";
 import JasonJPG from "../assets/images/jason-voorhees.jpg";
-import RepublicaJPG from "../assets/images/republica.jpg";
+import CasaPanicoJPG from "../assets/images/casa-panico.jpeg";
 import PanicoJPG from "../assets/images/panico.jpg";
-import LivingRoomJPG from "../assets/images/living-room.jpg";
-import RoomJPG from "../assets/images/room.jpg";
-import StairsJPG from "../assets/images/stairs.jpg";
+import LivingRoomJPG from "../assets/images/sala-panico.jpeg";
+import RoomJPG from "../assets/images/quarto-panico.jpeg";
 
 
 
@@ -50,10 +48,9 @@ export default [
     amount: "R$ 70,00",
     details: "Casa simples | Perto do acampamento Crystal Lake.",
     images: [
-      GomaJPG,
       CabanaJPG,
-      SalaJPG,
-      QuartoCabanaJPG,
+      SalaVoorheesJPG,
+      QuartoVoorheesJPG,
     ],
     description:
       "O preço baixo se justifica pela qualidade da casa. Não reclame. ",
@@ -70,8 +67,7 @@ export default [
     amount: "R$ 80,00",
     details: "Em reforma parcial | Perto da escola Sidney Prescott",
     images: [
-      RepublicaJPG,
-      StairsJPG,
+      CasaPanicoJPG,
       RoomJPG,
       LivingRoomJPG,
     ],
