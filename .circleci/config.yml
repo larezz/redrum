@@ -1,0 +1,45 @@
+version: 2.1
+
+orbs:
+  aws-cli: circleci/aws-cli@1.0.0
+
+jobs:
+  deploy-production:
+    executor: aws-cli/default
+    steps:
+      - checkout
+      - aws-cli/setup:
+          profile-name: example
+      - run:
+          name: Remove old yarn
+          command: sudo rm -Rf /usr/local/bin/yarn*
+      - run:
+          name: Install Yarn
+          command: sudo npm install -g yarn
+      - run:
+          name: Install dependencies
+          command: sudo yarn install
+      - run:
+          name: Build
+          command: sudo yarn build
+      - run:
+          name: Remove old files of s3
+          command: aws s3 rm s3://production-afis-site --recursive
+      - run:
+          name: Upload to s3
+          command: aws s3 cp ./dist s3://redrun-larissa  --recursive --acl=public-read
+      - run:
+          name: Invalidate Cache
+          command: aws cloudfront create-invalidation --distribution-id E1GKL55L2HVJFL --paths "/*"
+
+workflows:
+  version: 2
+  prepare:
+    jobs:
+      - deploy-production:
+          context: AWS ederzadravec
+          filters:
+            branches:
+              only:
+                - main
+     
